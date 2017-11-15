@@ -14,7 +14,7 @@ class Commandbox < Formula
   end
 
   def install
-   libexec.install "box"
+    libexec.install "box"
     (bin/"box").write_env_script libexec/"box", Language::Java.java_home_env("1.8")
     doc.install resource("apidocs")
   end
