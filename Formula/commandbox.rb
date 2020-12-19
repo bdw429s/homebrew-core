@@ -3,6 +3,7 @@ class Commandbox < Formula
   homepage "https://www.ortussolutions.com/products/commandbox"
   url "https://downloads.ortussolutions.com/ortussolutions/commandbox/5.2.1/commandbox-bin-5.2.1.zip"
   sha256 "fdde1f8146e9f6105e396d3c42a1ec34fbaf6ef4f74eef78fb33b091f36e95b8"
+  license "LGPL-3.0-or-later"
 
   livecheck do
     url :homepage
